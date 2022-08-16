@@ -1,0 +1,10 @@
+s = input('Digite alguma coisa: ')
+print ('O que foi digitado pelo usuário: ', s)
+print (type(s))
+print('É um númerico?', s.isnumeric())
+print('É um alfanúmerico?', s.isalnum())
+print('É um alpha?', s.isalpha())
+print('Todas as letras estão em maiusculas? ', s.isupper())
+print('Todas as letras estão em minusculas? ', s.islower())
+print('Pode ser printvável? ', s.isprintable())
+
