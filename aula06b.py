@@ -7,4 +7,3 @@ print('É um alpha?', s.isalpha())
 print('Todas as letras estão em maiusculas? ', s.isupper())
 print('Todas as letras estão em minusculas? ', s.islower())
 print('Pode ser printvável? ', s.isprintable())
-
