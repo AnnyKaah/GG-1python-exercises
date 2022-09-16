@@ -1,0 +1,5 @@
+salário = float(input('Qual é o salário do funcionário? R$'))
+aumento = salário + (salário*0.15)
+print('-'*12)
+print('Um funcionário que ganhava R${}, com um aumento de 15%\npassa a receber R${:.2f}'.format(salário,aumento))
+print('-'*12)
